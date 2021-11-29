@@ -1,0 +1,50 @@
+#text_div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 10px;
+}
+
+.center_all {
+    position: absolute;
+    top: 25%;
+    font-size: 32px;
+    font-family: Lucida Calligraphy;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+    text-align: center;
+}
+
+.btn_outlined {
+    position: relative;
+    width: 300px;
+    background-color: transparent;
+    height: 60px;
+    margin: 20px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    transition: 0.5;
+    margin-top: 6em;
+    border: 1px solid #fff;
+    &:hover {
+       
+    }
+   
+}
+@keyframes animate {
+    0% {
+        background-position-y: 0;
+    }
+    100% {
+        background-position-y: -480px;
+    }
+}
